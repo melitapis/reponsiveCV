@@ -45,9 +45,15 @@ h2{
 /// about me///
 
 .container-text-about{
-
+h2{
+  text-align: center;
+}
   border: 1px solid orange;
   margin: 10%;
+
+  p{
+    text-align: justify;
+  }
 
   #neon-button-text{
     border: 1px solid green;
@@ -63,7 +69,8 @@ h2{
   border-radius: 50px;
   float: left;
   //border-radius: 10% ;
-  align-items: center;
-  margin-right: 10px;
-  box-shadow: white;
+  // align-items: center;
+  // margin-right: 10px;
+  // box-shadow: white;
+  vertical-align: middle;
 }
