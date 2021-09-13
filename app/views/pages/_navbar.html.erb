@@ -1,15 +1,11 @@
 <%#
 <body>
   <nav>
-    <div class="nav-content">
-      <div class="logo">
-        <a href="#"></a>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Besoin</a></li>
-        <li><a href="#">qui suis-je ?</a></li>
-        <li><a href="#">Contact</a></li>
+    <ul class="nav-links">
+        <a href="#contactrow">Home</a>
+        <a href="#">Besoin</a>
+        <a href="#">qui suis-je ?</a>
+        <a href="#contactrow">Contact</a>
       </ul>
     </div>
   </nav>
@@ -17,7 +13,7 @@
 
 
   <script>
-  let nav = document.querySelector("nav");
+  let nav = document.querySelector("nav-links");
     window.onscroll = function() {
       if(document.documentElement.scrollTop > 20){
         nav.classList.add("sticky");
@@ -36,13 +32,12 @@
 </head>
 <body>
 
-<div id="navbar">
- <a href="#" class ="active">Home</a>
-  <a href="#">News</a>
-  <a href="#">Blog</a>
-  <a href="#">Event</a>
-  <a href="#">About</a>
-  <a href="#">Contact</a>
+<div  id="navbar">
+  <li><a href="#Home" class ="active">Acceuil</a> </li>
+  <li><a href="#link-container-need"> Les Services</a></li>
+  <li><a href="#about">Qui suis-je ?</a></li>
+  <li><a href="#contactrow">Contact Moi</a></li>
+
 </div>
 
 

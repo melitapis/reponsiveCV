@@ -2,13 +2,13 @@
 <div class="container">
 
   <div class=" row justify-content-center col-12  ">
-    <div class="container-home">
+    <div class="container-home" id="Home">
 
       <div><h2>Bonjour, Je suis<span> Thibault Fitte-Duval</span></h2>
             <h2> Je suis Web Developper </h2>
 
               <div class="container-btn ">
-                 <a href="" id="neon-button-text"><span>read more</span></a>
+                 <a href="#link-container-need" id="neon-button-text"><span>En savoir plus</span></a>
                </div>
 
                <span class="hero__scroll">
@@ -21,46 +21,49 @@
       <div class="box">
         <span></span>
         <div class="content">
-          <h2>Card one</h2>
-          <p>Neque porro quisquam est qui dolorem
-          ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-          <a href="#"> me contacter</a>
+          <p>Vous cherchez a augmenter  la visibilité de votre commerce </p>
+          <a href="#contactrow"> me contacter</a>
         </div>
       </div>
 
       <div class="box">
         <span></span>
         <div class="content">
-          <h2>Card deux</h2>
-          <p>Neque porro quisquam est qui dolorem
-          ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-          <a href="#"> me contacter</a>
+          <p> valoriser votre positionnement d’expert et diffuser votre message auprès d’un public intéressé et engagé </p>
+          <a href="#contactrow"> me contacter</a>
         </div>
       </div>
 
       <div class="box">
         <span></span>
         <div class="content">
-          <h2>Card trois</h2>
-          <p>Neque porro quisquam est qui dolorem
-          ipsum quia dolor sit amet, consectetur, adipisci velit...</p>
-          <a href="#"> me contacter</a>
+          <p>Vous cherchez a concretiser de manière digitale vos projets</p>
+          <a href="#contactrow"> me contacter</a>
         </div>
       </div>
     </div>
 
       <%# III/part about %>
 
-        <div class="container-text-about center-justify col-12" >
-    <%# center/justify content %>
-    <h2>about me </h2>
-    <%= image_tag "tfd.jpg", class: "me-img"%>
-    <p>Est vel acriter odio volueritis necessario excusationem utrum si utrum qui vere pietatis alicuius sed existimare nimis necessitati ignoscendum nec si nec voluit hanc diligenter qui vel necessitati pietati est diligenter utrum odio descensurum quicquam acerbo descendisset hac excusationem fuisse libidine accusare pietati etiam odio atque tribuo ignoscendum pueritiae constituetis.</p>
-    <p>Est vel acriter odio volueritis necessario excusationem utrum si utrum qui vere pietatis alicuius sed existimare nimis necessitati ignoscendum nec si nec voluit hanc diligenter qui vel necessitati pietati est diligenter utrum odio descensurum quicquam acerbo descendisset hac excusationem fuisse libidine accusare pietati etiam odio atque tribuo ignoscendum pueritiae constituetis.</p>
-    <div class="btn-read-more">
-    <a href="" id="neon-button-text"><span>read more</span></a>
-    </div>
-  </div>
+    <div class="card-text-about" id="about" >
+    <%# center-justify col-12 %>
+
+          <div class="card-image">
+             <%= image_tag "tfd.jpg", class: "me-img" %>
+          </div>
+
+          <div class="card-body">
+            <div class="aboutme">
+              <h2> Qui suis-je ? </h2>
+            </div>
+            <div class="Fullstak">
+              <p>Je suis developper Fullstakc. je suis passionné par les effets UI, l'animation et la création d'experience utilisateurs intuitives et dynamiques</p>
+            </div>
+            <div class="btn-read-more">
+            <a href="" id="neon-button-text"><span>Créons une experience</span></a>
+            </div>
+          </div>
+      </div>
 
 
   </div>
