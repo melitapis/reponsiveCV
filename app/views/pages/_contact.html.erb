@@ -5,34 +5,39 @@
 	<div class="row" id="contactrow">
 			<%# <h4 style="text-align:center">We'd love to hear from you!</h4> %>
 	</div>
-	<div class="row input-container">
-			<div class="col-xs-12">
-      <h4 style="text-align:center"> Me contacter</h4>
-				<div class="styled-input wide">
-					<input type="text" required />
-					<label>Nom</label>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input">
-					<input type="text" required />
-					<label>Email</label>
-				</div>
-			</div>
-			<div class="col-md-6 col-sm-12">
-				<div class="styled-input" style="float:right;">
-					<input type="text" required />
-					<label>Numéro de téléphone</label>
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="styled-input wide">
-					<textarea required></textarea>
-					<label>Message</label>
-				</div>
-			</div>
-			<div class="col-xs-12">
-				<div class="btn-lrg submit-btn">envoyer le message</div>
-			</div>
-	</div>
+
+  <form action="https://formspree.io/f/mrgrrwww" method="post">
+
+    <div class="row input-container">
+        <div class="col-xs-12">
+        <h4 style="text-align:center"> Me contacter</h4>
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Nom</label>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+            <input type="text" required />
+            <label>Email</label>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float:right;">
+            <input type="text" required />
+            <label>Numéro de téléphone</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+        <button type="submit" class="btn-lrg submit-btn" >envoyer le message</button>
+          <%# <button><div class="btn-lrg submit-btn">envoyer le message</div> </button> %>
+        </div>
+    </div>
+  </form>
 </div>

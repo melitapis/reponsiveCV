@@ -5,7 +5,7 @@
   // min-height: 100vh;
   background: #343F4F;
   //#343F4F
-  //background: #1d061a;
+  //background: #1d061a;git
    scroll-padding-top: 70px;
 }
 html {
@@ -81,8 +81,14 @@ h2{
 
 .card-text-about{
   margin-top: 5px;
-  h2{
+  h2 {
     color: grey;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h4 {
+    color: white;
     font-size: 20px;
     text-align: center;
   }

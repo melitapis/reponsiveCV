@@ -1,5 +1,4 @@
 footer{
-
     bottom: 0;
     left: 0;
     right: 0;
@@ -9,6 +8,8 @@ footer{
     font-family: "Open Sans";
     padding-top: 40px;
     color: #fff;
+    list-style-type: none;
+
 }
 .footer-content{
     display: flex;
@@ -16,9 +17,13 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+
+
 }
+
+
 .footer-content h3{
-    font-size: 1.8rem;
+    font-size: 30px;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
@@ -27,10 +32,10 @@ footer{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 22px;
 }
 .socials{
-    list-style: none;
+    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,13 +48,13 @@ footer{
     text-decoration: none;
     color: #fff;
 }
-.socials a i{
-    font-size: 1.1rem;
-    transition: color .4s ease;
+// .socials a i{
+//     font-size: 2.1rem;
+//     transition: color .4s ease;
 
-}
-.socials a:hover i{
-    color: aqua;
+// }
+.socials a:hover i:hover{
+    color: #343F4F;
 }
 
 // .footer-bottom{
@@ -68,3 +73,9 @@ footer{
 //     opacity: .4;
 //     font-weight: 200;
 // }
+
+
+#colooo{
+  text-decoration: red;
+  color: #fff;
+}
