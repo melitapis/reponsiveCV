@@ -6,7 +6,7 @@
   position: relative;
   padding: 10px 30px;
   margin: 0 15px;
-  color: #F72119;
+  color: #FC6D6D;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 20px;
@@ -16,9 +16,9 @@
 }
 
 #neon-button-text:hover{
-   background:#F72119;
+   background:#FC6D6D;
    color: white;
-   box-shadow: 0 0 50px #F72119;
+   box-shadow: 0 0 50px #FC6D6D;
    transition-delay: 0.5s;
 }
 
@@ -29,8 +29,8 @@
   left: 0;
   width: 10px;
   height: 10px;
-  border-top: 2px solid #F72119;
-  border-left: 2px solid #F72119;
+  border-top: 2px solid #FC6D6D;
+  border-left: 2px solid #FC6D6D;
   transition: 0.5s;
   transition-delay: 0.5s;
 }
@@ -52,8 +52,8 @@
   right: 0;
   width: 10px;
   height: 10px;
-  border-bottom: 2px solid #F72119;
-  border-right: 2px solid #F72119;
+  border-bottom: 2px solid #FC6D6D;
+  border-right: 2px solid #FC6D6D;
   transition: 0.5s;
   transition-delay: 0.5s;
 }
