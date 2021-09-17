@@ -3,15 +3,16 @@
 //container
 
 .container-need{
-  border: 1px solid red;
+  //border: 1px solid red;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 padding: 40px 0;
-margin-top: 300px;
+margin-top: 200px;
 margin-bottom: 30px;
+
 }
 
 .container-need .box
